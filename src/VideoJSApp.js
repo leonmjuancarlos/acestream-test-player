@@ -3,7 +3,7 @@ import VideoJS from './components/VideoJS'
 import { useRef, useState } from 'react';
 import './VideoJSApp.css'
 
-const HOST = 'http://88.98.111.0:6878'
+const HOST = 'http://192.168.1.15:6878'
 
 const VideoJSApp = () => {
     const playerRef = useRef(null);
@@ -12,7 +12,7 @@ const VideoJSApp = () => {
     const [videoJsOptions, setVideoJsOptions] = useState({
         autoplay: true,
         controls: true,
-        responsive: true,
+        responsive: true,http://88.98.111.0:6878/webui/app/wVRwok8zHtoB/server
         fluid: true,
         sources: [{
             src: HOST + '/ace/manifest.m3u8?id=' + contentId,
