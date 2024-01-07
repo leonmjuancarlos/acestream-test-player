@@ -12,7 +12,7 @@ const VideoJSApp = () => {
     const [videoJsOptions, setVideoJsOptions] = useState({
         autoplay: true,
         controls: true,
-        responsive: true,http://88.98.111.0:6878/webui/app/wVRwok8zHtoB/server
+        responsive: true,
         fluid: true,
         sources: [{
             src: HOST + '/ace/manifest.m3u8?id=' + contentId,
